@@ -1,13 +1,18 @@
 public abstract class Animal {
 
     protected int distanceRun;
-    protected int distanceJump;
+    protected double distanceJump;
     protected int distanceSwim;
     protected int maxDistanceRun;
     protected double maxDistanceJump;
     protected int maxDistanceSwim;
 
-    public Animal() {
+    public Animal(int distanceRun, double distanceJump, int maxDistanceRun, double maxDistanceJump) {
+        this.distanceRun = distanceRun;
+        this.distanceJump = distanceJump;
+
+        this.maxDistanceRun = maxDistanceRun;
+        this.maxDistanceJump = maxDistanceJump;
     }
 
     public void run() {
