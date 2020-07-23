@@ -12,7 +12,7 @@ public class Dog extends Animal { //задание 5
 
     @Override
     public void swim() {
-        if (distanceSwim < 10)
+        if (distanceSwim < maxDistanceSwim)
             System.out.println("run: true");
         else
             System.out.println("run: false");
