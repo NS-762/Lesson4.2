@@ -1,12 +1,10 @@
 public class Dog extends Animal { //задание 5
 
-    public Dog(int distanceRun, int distanceJump, int distanceSwim, int maxDistanceRun,
-               int maxDistanceJump, int maxDistanceSwim) {
-        this.distanceRun = distanceRun;
-        this.distanceJump = distanceJump;
+    public Dog(int distanceRun, double distanceJump, int distanceSwim, int maxDistanceRun,
+               double maxDistanceJump, int maxDistanceSwim) {
+        super(distanceRun, distanceJump, maxDistanceRun, maxDistanceJump);
+
         this.distanceSwim = distanceSwim;
-        this.maxDistanceRun = maxDistanceRun;
-        this.maxDistanceJump = maxDistanceJump;
         this.maxDistanceSwim = maxDistanceSwim;
     }
 
