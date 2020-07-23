@@ -1,10 +1,7 @@
 public class Cat extends Animal { //задание 5
 
-    public Cat(int distanceRun, int distanceJump, int maxDistanceRun, int maxDistanceJump) {
-        this.distanceRun = distanceRun;
-        this.distanceJump = distanceJump;
-        this.maxDistanceRun = maxDistanceRun;
-        this.maxDistanceJump = maxDistanceJump;
+    public Cat(int distanceRun, double distanceJump, int maxDistanceRun, double maxDistanceJump) {
+        super(distanceRun, distanceJump, maxDistanceRun, maxDistanceJump);
     }
 
     @Override
